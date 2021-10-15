@@ -1,0 +1,63 @@
+<html>
+<head><title>Admission Form</title></head>
+<style>
+*{box-sizing: border-box;
+  background-color: aquamarine;
+}
+body{
+
+    margin: 0px;
+    
+}
+</style>
+<body>
+    <form action="">
+        <center><h1>Admission Form</h1></center>
+        <h3>Please fill in this form carefully.</h3>
+        <div class="container">
+            <label for="">First Name</label><br>
+            <input type="text" placeholder="Enter First Name" name="firstname" size="15" required><br>
+            <label for="">MidelName</label><br>
+            <input type="text" placeholder="Enter MidelName" name="MidelName" size="15" required><br>
+            <label  for="">LastName</label><br>
+            <input type="text" placeholder="Enter LastName" name="LastName" size="15" required><br>
+        </div>
+        <div>
+            <label for="">Course</label><br>
+            <select>
+                <option value="Course">Course</option>
+                <option value="BSCS">BSCS</option>
+                <option value="BS Englisg">BS Englisg</option>
+                <option value="BS Urdu">BS Urdu</option>
+                <option value="BS Economic">BS Economic</option>
+                <option value="BS Psocology">BS Psocology</option>
+                <option value="BS Statistic">BS Statistic</option>
+                <option value="BS Mathamatic">BS Mathamatic</option>
+                <option value="BS Islamiyat">BS Islamiyat</option>
+                <option value="BS Pack Study">BS Pack Study</option>
+                <option value="BS IT">BS IT</option>
+            </select>
+        </div>
+        <div>
+            <label for="">Gender</label><br>
+            <input type="radio" value="Male" name="gender" checked>Male
+            <input type="radio" value="Female" name="gender" checked>Female
+            <input type="radio" value="Other" name="gender" checked>Other
+
+        </div>
+        <label for="">Phone</label><br>
+        <input type="text" name="number" value="+92" placeholder="Enter Mobile" size="11" required><br>
+        <label for="">Permanent Address</label><br>
+        <textarea cols="80" rows="5" placeholder="Enter Address" name="Address" required></textarea><br>
+        <label for="">Email</label><br>
+        <input type="text" name="email" placeholder="Enter email" required><br>
+        <label for="">Passwaord</label><br>
+        <input type="text" name="Passwaord" placeholder="Enter Passwaord" required><br>
+        <label for="">Conferm Passwaord</label><br>
+        <input type="text" name="Conferm Passwaord" placeholder="Enter Conferm Passwaord" required><br>
+        <button type="submit">Save</button>
+        
+    </form>
+</body>
+
+</html>
